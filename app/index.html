@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Ajax_lecture</title>
+    <title>Crud Work</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -20,23 +20,49 @@
   </head>
   <body>
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
+<h1>todos</h1>
+    <div class="container">
 
 
+        <div class="listTitle">
+          <p>What need's to be done?</p>
+        </div>
+
+        <div class="content">
+            <div class = "edit">
+
+            </div>
+
+            <div class="todos">
+                <input type="text" class = "description" name = "description"   placeholder = "add a new todo item" value = "">
+            </div>
+
+            <div class="delete">
+
+            </div>
+        </div>
+
+      <div class="activity">
+        <div class="itemsLeft">
+          <div class="count"></div> <!-- do something here -->
+            <p>items left</p>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href=""All</a></li>
+            <li><a href="">Active</a></li>
+            <li><a href="">Completed</a></li>
+          </ul>
+        </nav>
+      </div> <!-- end activity div -->
 
 
-        <li>UnderscoreJS</li>
+<footer>
+  <p>Double-click to edit a todo</p>
+</footer>
+</div> <!-- end container div -->
 
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
-    </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -47,6 +73,7 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src = "scripts/templates.js"></script>
         <!-- endbuild -->
 </body>
 </html>

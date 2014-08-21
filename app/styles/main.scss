@@ -21,3 +21,52 @@ body {
     letter-spacing: -1px;
   }
 }
+
+.container{
+  width:600px;
+  margin:0 auto;
+  border:1px solid red;
+  margin-top: 150px;
+}
+
+h1{
+  text-align:center;
+
+}
+
+.listTitle{
+  border-top:20px solid rgb(94,36,12);
+  height:50px;
+  background-color:rgb(230,230,230);
+  p{
+    font-style:italic;
+    margin-left:100px;
+    font-size:18px;
+    font-color:gray;
+  }
+}
+
+.edit{
+  width:10%;
+  height:25px;
+  display:inline-block;
+  cursor:pointer;
+  border:1px solid green;
+
+}
+
+.todos{
+  width:70%;
+  display:inline-block;
+  border:1px solid blue;
+
+}
+
+.delete{
+  width:10%;
+  height:25px;
+  display:inline-block;
+  cursor:pointer;
+  border: 1px solid red;
+
+}
